@@ -1,0 +1,30 @@
+{
+  "name": "webxr-stuff",
+  "version": "1.0.0",
+  "description": "Some WebXR stuff",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://chrisuehlinger@github.com/chrisuehlinger/webxr-stuff.git"
+  },
+  "author": "Chris Uehlinger <chris.uehlinger@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisuehlinger/webxr-stuff/issues"
+  },
+  "homepage": "https://github.com/chrisuehlinger/webxr-stuff#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "three": "^0.135.0"
+  }
+}
