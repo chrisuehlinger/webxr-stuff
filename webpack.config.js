@@ -9,6 +9,8 @@ module.exports = {
     },
     compress: true,
     port: 9000,
+    allowedHosts: ["localhost", "10.0.0.16", "10.0.0.45"],
+    https:true
   },
   devtool: 'inline-source-map',
   entry: "./src/index.js",
